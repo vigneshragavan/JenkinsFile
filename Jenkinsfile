@@ -8,9 +8,7 @@ pipeline {
         }
         stage('robo-test') { 
             steps { 
-                
-      
-               sh 'mvn clean install'
+               sh 'mvn  install'
             
             }
         }
