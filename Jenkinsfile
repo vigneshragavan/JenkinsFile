@@ -8,7 +8,7 @@ pipeline {
         }
         stage('robo-test') { 
             steps { 
-               sh 'mvn  install'
+               bat 'mvn  install'
             
             }
         }
