@@ -6,5 +6,14 @@ pipeline {
                echo 'This is a minimal pipeline.' 
             }
         }
+        stage('robo-test') { 
+            steps { 
+                script
+                {
+               sh "mvn clean install"
+            }
+            }
+        }
+   
     }
 }
