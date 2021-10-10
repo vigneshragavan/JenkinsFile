@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${browser}    jbrowser
+${browser}    chrome
 
 *** Test Cases ***
 Open Google
