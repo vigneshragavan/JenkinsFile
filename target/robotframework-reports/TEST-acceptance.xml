@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="1" skipped="0" tests="4" name="Acceptance" time="13.018" errors="0">
+<testcase classname="Acceptance.DB" name="Create Test Table" time="0.152">
+</testcase>
+<testcase classname="Acceptance.PythonLibrary" name="Date parsing with Python library" time="0.191">
+</testcase>
+<testcase classname="Acceptance.REST" name="Get Google" time="1.070">
+</testcase>
+<testcase classname="Acceptance.Web" name="Open Google" time="4.355">
+<failure message="org.openqa.selenium.WebDriverException: Could not launch browser.&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'LAPTOP-FQ3NSMMB', ip: '192.168.245.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'&#10;Driver info: driver.version: JBrowserDriver" type="AssertionError"></failure>
+</testcase>
+</testsuite>
